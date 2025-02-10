@@ -1,4 +1,9 @@
 def compute_share():
+    """
+    Computes the total amount of shares to give an investor based on the percentage of shares the company is offering the investor
+    """
+
+    
     shares = []
     shareholders_num = int(input("How many Shareholders are we looking at?: "))
     for shareholder in range(1, shareholders_num+1):
